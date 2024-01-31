@@ -1,0 +1,35 @@
+.blog-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .blog-card {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    transition: height 0.3s ease-in-out;
+  }
+  
+  .blog-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .blog-card button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .blog-card.expanded {
+    height: 200px; /* Adjust the height as needed for your design */
+  }
+  
